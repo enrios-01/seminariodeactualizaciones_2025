@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Herramientas para el trabajo IT</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1f2937;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      font-size: 2rem;
+    }
+    .imagenes-principales {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+      background-color: #e2e8f0;
+      padding: 1.5rem 0;
+    }
+    .imagenes-principales img {
+      max-height: 100px;
+      object-fit: contain;
+    }
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin: 1rem 0;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      color: #1f2937;
+    }
+    p {
+      margin-bottom: 1rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.8rem 1.2rem;
+      margin-top: 0.5rem;
+      background-color: #2563eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #1d4ed8;
+    }
+    .download {
+      background-color: #10b981;
+    }
+    .download:hover {
+      background-color: #059669;
+    }
+    .equipo {
+      background-color: #e0f2fe;
+      border-left: 5px solid #0ea5e9;
+      padding: 1rem;
+      margin-top: 2rem;
+      border-radius: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .equipo-info {
+      flex: 1;
+    }
+    .equipo h3 {
+      margin-top: 0;
+      color: #0f172a;
+    }
+    .equipo ul {
+      list-style: none;
+      padding: 0;
+    }
+    .equipo li {
+      padding: 0.2rem 0;
+    }
+    .logo-sistemas {
+      max-height: 200px;
+      margin-left: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  Herramientas para el trabajo IT
+</header>
+
+<div class="imagenes-principales">
+  <img src="Slack.png" alt="Logo Slack">
+  <img src="glpi.png" alt="Logo GLPI">
+  <img src="mantis.png" alt="Logo MantisHub">
+</div>
+
+<main>
+  <div class="card">
+    <h2>Slack</h2>
+    <p>Slack es una plataforma de mensajería empresarial que mejora la comunicación en equipos de trabajo IT.</p>
+    <a class="btn" href="https://www.youtube.com/watch?v=d4Hz9qGmT3A" target="_blank">Conoce Slack desde cero</a>
+  </div>
+
+  <div class="card">
+    <h2>GLPI</h2>
+    <p>GLPI es una herramienta de código abierto para la gestión de servicios de TI (ITSM) y activos.</p>
+    <a class="btn" href="https://www.youtube.com/watch?v=1oJKc3RXNPc" target="_blank">Conoce GLPI desde cero</a>
+  </div>
+
+  <div class="card">
+    <h2>MantisHub</h2>
+    <p>MantisHub es un sistema de seguimiento de errores (bug tracker) basado en la nube para equipos de desarrollo.</p>
+    <a class="btn" href="https://youtu.be/WrP4gaIz7Kc" target="_blank">Conoce MantisHUB desde cero</a>
+  </div>
+
+  <div class="card">
+    <h2>Material Complementario</h2>
+    <p>Puedes descargar el PDF con el material utilizado durante la presentación.</p>
+    <a class="btn download" href="material_presentacion.pdf" download>Descarga el material que usamos en la presentación</a>
+  </div>
+
+  <div class="equipo">
+    <div class="equipo-info">
+      <h3>Equipo A</h3>
+      <ul>
+        <li>Cafferata Gabriela</li>
+        <li>Canda Marcela</li>
+        <li>Raso Lauraro</li>
+        <li>Rios Emmanuel</li>
+      </ul>
+      <p><strong>ISFT 179</strong> - Análisis de Sistemas</p>
+    </div>
+    <img class="logo-sistemas" src="Logo_Sistemas.png" alt="Logo Sistemas">
+  </div>
+</main>
+
+<footer>
+  &copy; 2025 - Área de Sistemas de Información
+</footer>
+
+</body>
+</html>
